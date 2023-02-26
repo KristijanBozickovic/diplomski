@@ -51,6 +51,7 @@ section{
     background: var(--light-blue);
     z-index: -1;
     clip-path: polygon(0 90%, 100% 80%, 100% 100%, 0% 100%);
+    animation: anim 2.5s linear infinite;
 }
 
 .btn{
@@ -673,6 +674,20 @@ section{
 
 
 
+
+
+
+
+
+@keyframes anim{
+    0%,10%,100%{
+        width: 0;
+    }
+    70%,90%{
+        width: 100%;
+
+    }
+}
 
 
 
